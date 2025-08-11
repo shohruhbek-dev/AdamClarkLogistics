@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -39,8 +38,13 @@ export default function ContactForm() {
   const [submitStatus, setSubmitStatus] = useState("")
 
   const sendToTelegram = async (message: string) => {
-    const BOT_TOKEN = "8451294624:AAG1REDfYJp2culglMKT2IypiuZBnXmooVk"
-    const CHAT_ID = "5432947714"
+    const BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN
+    const CHAT_ID = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID
+
+    if (!BOT_TOKEN || !CHAT_ID) {
+      console.error("Telegram configuration error: BOT_TOKEN or CHAT_ID is missing")
+      return false
+    }
 
     try {
       const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
