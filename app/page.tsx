@@ -576,7 +576,7 @@ export default function AdamClarkLogistics() {
                 </Button>
                 <Button
                   className="bg-[#ea4335] hover:bg-[#d93025] text-white font-bold px-4 py-2 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 text-sm justify-start"
-                  onClick={() => window.open("mailto:adamclark1105@gmail.com", "_blank")}
+                  onClick={() => window.open("mailto:info@adamclarklogistics.com", "_blank")}
                 >
                   <Mail className="mr-2 h-4 w-4" />
                   Direct Email
