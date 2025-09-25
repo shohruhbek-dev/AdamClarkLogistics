@@ -37,7 +37,7 @@ export default function AdamClarkLogistics() {
             <div className="flex items-center space-x-2">
               <Button
                 className="bg-[#25D366] hover:bg-[#20b858] text-white font-bold px-4 py-2 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-                onClick={() => window.open("https://wa.me/+1 (929)-734-6070", "_blank")}
+                onClick={() => window.open("https://wa.me/19297346070", "_blank")}
               >
                 <MessageCircle className="mr-2 h-4 w-4" />
                 WhatsApp
@@ -90,7 +90,7 @@ export default function AdamClarkLogistics() {
                   <Button
                     size="lg"
                     className="bg-[#25D366] hover:bg-[#20b858] text-white font-bold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-                    onClick={() => window.open("https://wa.me/+1 (929)-734-6070", "_blank")}
+                    onClick={() => window.open("https://wa.me/19297346070", "_blank")}
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
                     WhatsApp
@@ -428,7 +428,7 @@ export default function AdamClarkLogistics() {
                 <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
                   <Button
                     className="bg-[#25D366] hover:bg-[#20b858] text-white font-bold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-                    onClick={() => window.open("https://wa.me/+1 (929)-734-6070", "_blank")}
+                    onClick={() => window.open("https://wa.me/19297346070", "_blank")}
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
                     WhatsApp
@@ -483,7 +483,7 @@ export default function AdamClarkLogistics() {
               <div className="flex flex-col sm:flex-row gap-3 pt-4">
                 <Button
                   className="bg-[#25D366] hover:bg-[#20b858] text-white font-bold px-4 py-2 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-                  onClick={() => window.open("https://wa.me/+1 (929)-734-6070", "_blank")}
+                  onClick={() => window.open("https://wa.me/19297346070", "_blank")}
                 >
                   <MessageCircle className="mr-2 h-4 w-4" />
                   WhatsApp
